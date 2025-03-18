@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# SkipTheCart Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the official website for SkipTheCart, a mobile app that helps users shop more mindfully by comparing cart items with their existing wardrobe.
+
+## Project Structure
+
+The project follows a modular component-based architecture:
+
+```
+src/
+├── components/      # Reusable UI components
+├── sections/        # Page sections composed of components
+├── theme.js         # Global theme configuration
+├── App.js           # Main application component
+└── index.js         # Entry point
+```
+
+## Components
+
+- **Button**: Customizable button component with primary, secondary, and text variants
+- **Navbar**: Responsive navigation with mobile menu 
+- **FeatureCard**: Displays app features with icon, title, and description
+- **StepCard**: Displays how-to steps with alternating layout
+- **Testimonial**: Displays user testimonials in a card format
+- **Footer**: Site footer with links and social icons
+- **NewsletterSignup**: Email newsletter signup form
+- **AppStoreButton**: Download buttons for app stores
+
+## Theme
+
+The theme is based on the SkipTheCart iOS app's color scheme, featuring:
+
+- Light purple primary color
+- Consistent spacing scales
+- Consistent typography
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm start
+   ```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start`: Run the development server
+- `npm test`: Launch the test runner
+- `npm run build`: Build the app for production
+- `npm run eject`: Eject from Create React App
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- TailwindCSS 
+- CSS-in-JS for theme-based styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+The website can be deployed to your preferred hosting platform:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Build the production version:
+   ```
+   npm run build
+   ```
+2. Deploy the contents of the `build` folder
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All rights reserved. This codebase is proprietary and confidential.
