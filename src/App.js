@@ -8,17 +8,19 @@ import HowItWorksSection from './sections/HowItWorksSection';
 import TestimonialsSection from './sections/TestimonialsSection';
 import DownloadSection from './sections/DownloadSection';
 import NewsletterSignup from './components/NewsletterSignup';
+import EnhancedFeaturesSection from './sections/EnhancedFeaturesSection';
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <HeroSection />
-      <FeaturesSection />
+      {/* <FeaturesSection /> */}
+      <EnhancedFeaturesSection />
       <HowItWorksSection />
       <TestimonialsSection />
       <DownloadSection />
-      <NewsletterSignup />
+      {/* <NewsletterSignup /> */}
       <Footer />
     </div>
   );
